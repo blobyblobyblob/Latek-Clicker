@@ -98,7 +98,7 @@ hide.style.visibility = 'hidden';
 
 function myfunction() {
     e = e + buttonvalue;
-    document.getElementById("var").innerHTML = "clicks: " + e;
+    document.getElementById("var").innerHTML = "Kliki: " + e;
     if (e >= 100) {
        hide.style.visibility = 'visible';
     }
