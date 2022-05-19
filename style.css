@@ -53,12 +53,6 @@ html {
     width: 100px;
     border-radius: 100%;
     border: 1px solid;
-    box-shadow: 0 0 10px hsla(0, 100%, 50%, 0.5),
-                 0 0 10px hsla(0, 100%, 50%, 0.5),
-                 0 0 10px hsla(0, 100%, 50%, 0.5),
-                 0 0 5px hsla(120, 100%, 25%, 1),
-                 0 0 5px hsla(120, 100%, 25%, 1),
-                 0 0 5px hsla(120, 100%, 25%, 1);
 }
 
 .buybox {
