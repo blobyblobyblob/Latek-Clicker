@@ -45,7 +45,7 @@ var upgbuy4 = false;
 var upgbuy6 = false;
 var upgbuy = false;
 var hiddenoof = false;
-var mtl = "you dont have enough clicks for this item: ";
+var mtl = "Masz za malo klikow. Wal w tego latka!!!!!!";
 //if (e >= 10) {
     //if (hide.style.visibility === 'visible') {
      //   hide.style.visibility = 'hidden';
@@ -119,7 +119,7 @@ function myfunction() {
 }
 
 function updac() {
-    document.getElementById("var").innerHTML = "clicks: " + e;
+    document.getElementById("var").innerHTML = "Kliki: " + e;
 }
 
 function buyupgrade() {
@@ -129,8 +129,8 @@ function buyupgrade() {
         cost = cost + 5;
         upgbuy = true;
         clickval = clickval + 1;
-        document.getElementById("upgrade").innerHTML = " auto clickers: " + upg;
-        document.getElementById("cost").innerHTML = "cost: " + cost;
+        document.getElementById("upgrade").innerHTML = "Auto Klikery: " + upg;
+        document.getElementById("cost").innerHTML = "Kosztuje: " + cost;
         updac();
         
         if (check1 === false) {
@@ -143,7 +143,7 @@ function buyupgrade() {
             
         
     } else {
-        alert(mtl+"\"auto clicker\"!");
+        alert(mtl+"\"Auto Klikery\"!");
     }
 }
 
@@ -154,8 +154,8 @@ function buyupgrade1() {
         cost2 = cost2 + 50;
         clickval1 = clickval1 + 1;
         upgbuy2 = true;
-        cst2.innerHTML = "cost: " + cost2;
-        up.innerHTML = "ultra clickers: " + upg2;
+        cst2.innerHTML = "Kosztuje: " + cost2;
+        up.innerHTML = "Ultra Klikery: " + upg2;
         updac();
         if (check === false) {
             if (upgbuy2 === true) {
@@ -165,7 +165,7 @@ function buyupgrade1() {
             }
         }
     } else {
-        alert(mtl+"\"ultra clicker\"!");
+        alert(mtl+"\"Ultra Klikery\"!");
     }
 }
 
@@ -176,8 +176,8 @@ function buyupgrade3() {
         cost3 = cost3 + 500;
         clickval3 = clickval3 + 1;
         upgbuy3 = true;
-        cst3.innerHTML = "cost: " + cost3;
-        omgc.innerHTML = "omega clickers: " + upg3;
+        cst3.innerHTML = "Kosztuje: " + cost3;
+        omgc.innerHTML = "omega Klikery: " + upg3;
         updac();
         if (check3 === false) {
             if (upgbuy3 === true) {
@@ -186,7 +186,7 @@ function buyupgrade3() {
             }
         }
     } else {
-        alert(mtl + "\"omega clicker\"!")
+        alert(mtl + "\"Omega Klikery\"!")
     }
 }
 
@@ -197,8 +197,8 @@ function upgradeclick() {
         buttonvalue = buttonvalue + 1;
         cost4 = cost4 + 25;
         updac();
-        up4.innerHTML = "button upgrades: " + upg4;
-        cst4.innerHTML = "cost: " + cost4;
+        up4.innerHTML = "Ulepszenia Guzika: " + upg4;
+        cst4.innerHTML = "Kosztuje: " + cost4;
     } else {
         alert(mtl + "\"button upgrade\"!");
     }
@@ -211,8 +211,8 @@ function buyupgrade4() {
         cost5 += 1000;
         upgbuy4 = true;
         clickval4 += 1;
-        hype.innerText = "hyper clickers: "+ upg5;
-        cst5.innerText = "cost: " + cost5;
+        hype.innerText = "hyper Klikery: "+ upg5;
+        cst5.innerText = "Kosztuje: " + cost5;
         updac();
         if (check4 === false) {
             if (upgbuy4 === true) {
@@ -234,8 +234,8 @@ function buynuk() {
         cost6 += 5000;
         upgbuy6 = true;
         clickval6 += 2;
-        nukc.innerText = "nuclear clickers: " + upg6;
-        cst6.innerText = "cost: " + cost6;
+        nukc.innerText = "elon musk Klikery: " + upg6;
+        cst6.innerText = "Kosztuje: " + cost6;
         updac();
         if (check6 === false) {
             if (upgbuy6 === true) {
@@ -244,6 +244,6 @@ function buynuk() {
             }
         }
     } else {
-        alert(mtl + "\"nuclear clicker\"!")
+        alert(mtl + "\"elon musk clicker\"!")
     }
 }
