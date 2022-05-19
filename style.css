@@ -49,11 +49,10 @@ html {
     top: 15px;
 }
 .box {
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
     border-radius: 100%;
     border: 1px solid;
-    background-color: hsl(0, 100%, 50%);
     box-shadow: 0 0 10px hsla(0, 100%, 50%, 0.5),
                  0 0 10px hsla(0, 100%, 50%, 0.5),
                  0 0 10px hsla(0, 100%, 50%, 0.5),
